@@ -24,6 +24,12 @@ public class Brinquedos implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
+	public Brinquedos(int id, String nome) {
+		super();
+		this.id = id;
+		this.nome = nome;
+	}
+
 	public int getId() {
 		return id;
 	}
