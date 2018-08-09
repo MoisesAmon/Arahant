@@ -19,11 +19,18 @@ public class Remedios implements Serializable{
 	private int id;
 	private String nomeremedio;
 	
-	public Remedios() {
-		
+	public Remedios() {	
 		
 	}
 	
+	
+	public Remedios(int id, String nomeremedio) {
+		super();
+		this.id = id;
+		this.nomeremedio = nomeremedio;
+	}
+
+
 	public int getId() {
 		return id;
 		
