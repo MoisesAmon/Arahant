@@ -27,6 +27,13 @@ public class Racao implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Racao(int id, String nome, String marca) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.marca = marca;
+	}
+
 	public int getId() {
 		return id;
 	}
